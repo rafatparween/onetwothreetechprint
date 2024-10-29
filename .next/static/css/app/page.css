@@ -18,7 +18,7 @@ div {
     color: #fff;
     display: flex;
     align-items: center;
-    height: 564.47px;
+    height: 500.47px;
     overflow: hidden;
     flex-direction: column;
 }
@@ -27,6 +27,7 @@ div {
     margin-left: 113px;
     font-size: 30px;
     margin-bottom: 60px;
+    margin-top: 80px;
 }
 
 .printer-setup h1 {
@@ -47,6 +48,8 @@ div {
 .printer-setup li {
     margin: 10px 0;
 }
+
+
 
 .btn {
     background-color: white;
@@ -77,6 +80,7 @@ div {
     height: 703px;
     padding: 91.1875px;
     margin-bottom: 30px;
+    margin-top: 61px;
     margin-left: 459px;
     object-fit: cover;
 
@@ -162,6 +166,7 @@ div {
         max-width: 669px; /* Ensure image doesn't exceed container width */
         height: auto; /* Maintain aspect ratio */
         margin: 0; /* Remove unnecessary margins */
+        margin-top: 65px;
     }
 
     .btn {
