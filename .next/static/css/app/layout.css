@@ -1730,6 +1730,12 @@ video {
 .pt-\[14px\] {
   padding-top: 14px;
 }
+.pr-\[\] {
+  padding-right: ;
+}
+.pr-\[8px\] {
+  padding-right: 8px;
+}
 .text-left {
   text-align: left;
 }
