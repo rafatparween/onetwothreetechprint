@@ -1,6 +1,5 @@
 import React from 'react';
 import './Support.css';
-import 'font-awesome/css/font-awesome.css';
 
 const Support = () => {
   return (

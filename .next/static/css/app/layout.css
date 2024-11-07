@@ -1478,6 +1478,10 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(0 122 204 / var(--tw-bg-opacity));
 }
+.bg-\[\#007DBA\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 125 186 / var(--tw-bg-opacity));
+}
 .bg-\[\#0096D6\] {
   --tw-bg-opacity: 1;
   background-color: rgb(0 150 214 / var(--tw-bg-opacity));
@@ -1730,12 +1734,6 @@ video {
 .pt-\[14px\] {
   padding-top: 14px;
 }
-.pr-\[\] {
-  padding-right: ;
-}
-.pr-\[8px\] {
-  padding-right: 8px;
-}
 .text-left {
   text-align: left;
 }
@@ -1960,6 +1958,9 @@ video {
 }
 .underline {
   text-decoration-line: underline;
+}
+.opacity-60 {
+  opacity: 0.6;
 }
 .opacity-80 {
   opacity: 0.8;
@@ -2535,6 +2536,10 @@ body {
     margin-left: -11px;
   }
 
+  .xl\:ml-\[-145px\] {
+    margin-left: -145px;
+  }
+
   .xl\:ml-\[-19px\] {
     margin-left: -19px;
   }
@@ -2545,10 +2550,6 @@ body {
 
   .xl\:ml-\[-247px\] {
     margin-left: -247px;
-  }
-
-  .xl\:ml-\[-289px\] {
-    margin-left: -289px;
   }
 
   .xl\:ml-\[-301px\] {
@@ -2631,8 +2632,8 @@ body {
     margin-left: 223px;
   }
 
-  .xl\:ml-\[263px\] {
-    margin-left: 263px;
+  .xl\:ml-\[277px\] {
+    margin-left: 277px;
   }
 
   .xl\:ml-\[281px\] {
@@ -2805,10 +2806,6 @@ body {
 
   .\32xl\:ml-\[268px\] {
     margin-left: 268px;
-  }
-
-  .\32xl\:ml-\[299px\] {
-    margin-left: 299px;
   }
 
   .\32xl\:ml-\[2px\] {
