@@ -1,4 +1,4 @@
-// File: /home/rafat/onetwotech/app/services/Pages/install/page.js
+// File: /home/rafat/one_two_techprint/app/services/Pages/install/page.js
 import * as entry from '../../../../../../app/services/Pages/install/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

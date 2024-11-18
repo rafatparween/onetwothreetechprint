@@ -273,6 +273,7 @@
 
 "use client";
 
+
 import { useRouter } from 'next/navigation';
 import React, { useState } from 'react';
 import Image from 'next/image';
@@ -297,18 +298,18 @@ function Home() {
     'HP ENVY 120 e-All-in-One Printer series',
     'HP ENVY 4500 e-All-in-One Printer series',
     'HP ENVY 4510 All-in-One Printer series',
-    'HP ENVY 4520 e-All-in-One Printer series',
-    'HP ENVY 5000 All-in-One Printer series',
-    'HP ENVY 5500 All-in-One Printer series',
-    'HP ENVY 5540 All-in-One Printer series',
-    'HP ENVY 5600 e-All-in-One Printer series',
-    'HP ENVY 7600 e-All-in-One Printer series',
-    'HP ENVY Photo 6200 All-in-One Printer series',
-    'HP Deskjet D1360 Printer series',
-    'HP Deskjet Ink Advantage Ultra 4800 series',
-    'HP DeskJet Ink Advantage 2800 All-in-One Printer series',
-    'HP DeskJet Ink Advantage 5200 All-in-One Printer series',
-    'HP Deskjet D1330 Printer series',
+    // 'HP ENVY 4520 e-All-in-One Printer series',
+    // 'HP ENVY 5000 All-in-One Printer series',
+    // 'HP ENVY 5500 All-in-One Printer series',
+    // 'HP ENVY 5540 All-in-One Printer series',
+    // 'HP ENVY 5600 e-All-in-One Printer series',
+    // 'HP ENVY 7600 e-All-in-One Printer series',
+    // 'HP ENVY Photo 6200 All-in-One Printer series',
+    // 'HP Deskjet D1360 Printer series',
+    // 'HP Deskjet Ink Advantage Ultra 4800 series',
+    // 'HP DeskJet Ink Advantage 2800 All-in-One Printer series',
+    // 'HP DeskJet Ink Advantage 5200 All-in-One Printer series',
+    // 'HP Deskjet D1330 Printer series',
   ];
 
   const handleSearchChange = (event) => {
@@ -345,11 +346,11 @@ function Home() {
       <section
   className="relative flex flex-col justify-center items-center text-center py-12 h-[409px] bg-cover bg-center"
   style={{
-    backgroundImage: "url('https://as1.ftcdn.net/v2/jpg/05/21/66/12/1000_F_521661218_MNYc5lCrIQUKKwBfIGzxJYHYxZzwNof9.jpg')"
+    backgroundImage: "url('/topback.png')"
   }}
 >
   {/* Overlay div for background color */}
-  <div className="absolute inset-0 bg-[#007DBA] opacity-60"></div>
+  {/* <div className="absolute inset-0 bg-[#007DBA] opacity-60"></div> */}
 
   {/* Content of the section */}
   <div className="relative z-10">
@@ -390,7 +391,8 @@ function Home() {
                     onClick={() => handleModelClick(model)} // Set model on click
                     className="cursor-pointer p-2 hover:bg-[#007DBA] hover:text-white"
                   >
-                    {model}
+                     <span className="font-bold text-black">HP</span>
+                     {model.substring(2)} {/* Display the rest of the model name */}
                   </li>
                 ))}
               </ul>
@@ -404,8 +406,8 @@ function Home() {
 
 
           <div className="flex justify-end  ">
-            <img
-              src="https://wingscarepro.com/setup/resources/assets/img/defaultPrinterSetup.png"
+            <Image
+              src="/systemhp.png"
               alt="Printer setup devices"
               width={350}
               height={196}
