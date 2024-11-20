@@ -342,9 +342,9 @@ function Home() {
   return (
     <>
       <NavbarSection/>
-      <div className="h-[409px] ">
+      <div className="h-[530px] ">
       <section
-  className="relative flex flex-col justify-center items-center text-center py-12 h-[409px] bg-cover bg-center"
+  className="relative flex flex-col justify-center items-center text-center py-12 h-[530px] bg-cover bg-center"
   style={{
     backgroundImage: "url('/topback.png')"
   }}
@@ -354,7 +354,7 @@ function Home() {
 
   {/* Content of the section */}
   <div className="relative z-10">
-    <h1 className="text-white">Your Content Here</h1>
+    {/* <h1 className="text-white">Your Content Here</h1> */}
   </div>
 
           <div className=" inset-0 opacity-80"></div>
@@ -411,7 +411,7 @@ function Home() {
               alt="Printer setup devices"
               width={350}
               height={196}
-              className="object-contain 2xl:ml-[893px] 2xl:mt-[-74px] xl:ml-[631px]"
+              className="object-contain 2xl:ml-[893px] 2xl:mt-[60px] xl:mt-[86px] xl:ml-[631px]"
             />
           </div>
 

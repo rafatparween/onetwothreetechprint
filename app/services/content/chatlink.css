@@ -11,9 +11,10 @@
 .chat-now {
     font-size: 30px;
     color: #1c85c1;
+    margin-top: -59px;
     cursor: pointer;
-    position: relative;
-    display: inline-block;
+    /* position: relative; */
+   
 }
 
 .chat-now i {
