@@ -15,6 +15,7 @@ import Solutions from "./services/content/Solutions";
 import PrinterGuide from "./services/content/PrinterGuide";
 import FooterSection from "./components/FooterSection";
 import Chatlink from "./services/content/Chatlink";
+import Navbar from "./components/Navbar";
 
 function Home() {
   return (
@@ -22,7 +23,7 @@ function Home() {
 
       {/* <NavBar /> */}
 
-      <Chatlink/>
+      <Navbar/>
       <PrinterSetup/>
       <Digonode/>
       {/* <ChatSection/> */}
