@@ -359,8 +359,13 @@ function Home() {
 
           <div className=" inset-0 opacity-80"></div>
           <div className="relative z-10 text-white 2xl:mt-[117px] xl:mt-[165px] 2xl:ml-[-825px] xl:ml-[-567px]  ">
-            <h1 className="text-4xl font-hp-simplified text-[44px] 2xl:ml-[12px] xl:ml-[-11px]">Get started with your HP printer</h1>
-            <p className="mt-[35px] text-[24px] xl:ml-[281px] 2xl:ml-[314px]">Enter your printer name and model number to get the right HP software and drivers.</p>
+          <h1 className="text-4xl font-hp-simplified text-[44px] xl:text-[50px] 2xl:text-[56px] xl:ml-[16px] 2xl:ml-[119px] mx-4 sm:mx-8 md:mx-12">
+              Get started with your HP printer
+            </h1>
+
+            <p className="mt-[35px] text-[24px] xl:text-[28px] 2xl:text-[32px] xl:ml-[310px] 2xl:ml-[487px] mx-4 sm:mx-8 md:mx-12">
+              Enter your printer name and model number to get the right HP software and drivers.
+            </p>
 
             {/* Input Section */}
             <div className="mt-8 flex space-x-4 justify-center">

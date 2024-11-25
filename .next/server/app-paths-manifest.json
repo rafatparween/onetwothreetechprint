@@ -1,8 +1,6 @@
 {
   "/page": "app/page.js",
   "/offline/page": "app/offline/page.js",
-  "/scanner/install/page": "app/scanner/install/page.js",
-  "/printer/install/page": "app/printer/install/page.js",
-  "/offline/install/page": "app/offline/install/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js"
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/services/Pages/page": "app/services/Pages/page.js"
 }
